@@ -1,21 +1,9 @@
-# redux
-
+# redux react-redux
+## Redux
 1. store : 데이터 관리
 2. action : 이벤트
 3. dispatch : 연결
 4. reducer : 업데이트
-
-# react-router-dom
-
-항상 하위 컴포넌트에게 주는 3가지 정보를 가지고 있다.
-
-
-## Installation
-
-```sh
-# npm
-npm install --save redux react-redux
-```
 
 ### `redux`
 리덕스만을 위한것
@@ -23,6 +11,16 @@ npm install --save redux react-redux
 ### `react-redux`
 
 리액트에서 리덕스를 사용할 수있게 한다.
+
+## Installation
+
+```sh
+# npm
+npm install --save redux react-redux
+
+# yarn
+yarn add redux react-redux
+```
 
 ## actions 생성
 
@@ -100,7 +98,7 @@ export default control;
 
 ## reducers (title) 생성
 
-title(String) 데이터 
+title(String) 데이터
 
 **reducers/index.js 파일로 이동**
 `import { combineReducers } from 'redux';`
